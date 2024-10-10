@@ -1,0 +1,303 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #031540;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+
+/* Header Styles */
+.header {
+    background-color: #03154076;
+    padding: 15px 0;
+    color: #fff;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #00abf0;
+    cursor: progress;
+}
+
+.navbar {
+    display: flex;
+    justify-content:flex-end;
+    gap: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    font-weight: 700;
+    color: #00abf0;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.new{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #00abf0;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #031540;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home-content h1 span {
+    color: #00abf0;
+    font-size: 80px;
+}
+
+.cta {
+    margin-top: 20px;
+    
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    background-color: #00abf0;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #00abf0;
+}
+
+/* About Section */
+.about {
+    background-color: #faf0f09a;
+    padding: 60px 0;
+    border-radius: 130px 0 0 130px;
+}
+
+.about-content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.about-content h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.about-content h2 span{
+    color: #00abf0;
+    font-size: 30px;
+}
+
+.btna{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+/* Skills Section */
+.skills {
+    background-color: #031540c0;
+    padding: 60px 0;
+}
+.skills h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.skills p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 35vh;
+}
+.skill-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #00abf0;
+    padding-bottom: 10px;
+}
+.skill-box p{
+    font-size: 15px;
+    text-align: center;
+}
+/* Projects Section */
+.projects {
+    background-color: #031540;
+    padding: 60px 0;
+}
+.projects p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.projects h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project-box {
+    background-color: #faf0f09a;
+    backdrop-filter: blur(20%);
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: start;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-box h3{
+    font-size: 25px;
+}
+.project-box h4{
+    color: white;
+    font-size: 12px;
+    
+}
+
+/* Contact Section */
+.contact {
+    background-color: #faf0f09a;
+    padding: 60px 0;
+    border-radius: 180px 180px 0 0;
+}
+.contact .container{
+    background-color: #031540;
+    padding: 30px;
+    border-radius: 30px;
+}
+.contact p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact h5{
+    color: white;
+    font-size: 15px;
+}
+
+.contact form input, 
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.contact form button {
+    padding: 12px 30px;
+    background-color: #00abf0;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #031540;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+    
+        flex-direction: column;
+    }
+    .navbar a{
+        font-size: 20px; 
+    }
+    .logo{
+        padding-top: 150px;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 32px;
+
+    }
+    .home-content .btn{
+        font-size: 12px;
+    } 
+   
+}
+@media (max-width: 400px) {
+    .home-content .btn{
+        font-size: 10px;
+    } 
+
+}
